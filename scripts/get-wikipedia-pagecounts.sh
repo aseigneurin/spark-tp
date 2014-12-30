@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-mkdir -p ../data/wikipedia-pagecounts-hours && cd $_
+mkdir -p `dirname $0`/../data/wikipedia-pagecounts-hours && cd $_
 
 yyyy=2014
 MM=06
